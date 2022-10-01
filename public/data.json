@@ -1,0 +1,650 @@
+{
+    "Legends": [
+        {
+            "Id": "version",
+            "Name": "Version",
+            "Names": [
+                "1.0", "1.1", "1.2", "1.3", "1.4", "1.5", "1.6", "2.0", "2.1", "2.2", "2.3", "2.4", "2.5", "2.6", "2.7", "2.8", "3.0", "3.1"
+            ],
+            "Property": "Version",
+            "View": "{name}"
+        },
+        {
+            "Id": "region",
+            "Name": "Region",
+            "Names": [
+                "None",
+                "Mondstadt",
+                "Liyue",
+                "Inazuma",
+                "Sumeru",
+                "Fontaine",
+                "Natlan",
+                "Snezhnaya"
+            ],
+            "Property": "Region",
+            "View": "{name}"
+        },
+        {
+            "Id": "element",
+            "Name": "Element",
+            "Names": [
+                "Pyro",
+                "Hydro",
+                "Electro",
+                "Cryo",
+                "Dendro",
+                "Anemo",
+                "Geo"
+            ],
+            "Property": "Element",
+            "View": "<img src=\"images/legend/{name}.png\"/>"
+        },
+        {
+            "Id": "weapon",
+            "Name": "Weapon",
+            "Names": [
+                "Sword",
+                "Claymore",
+                "Polearm",
+                "Catalyst",
+                "Bow"
+            ],
+            "Property": "Weapon",
+            "View": "<img src=\"images/legend/{name}.webp\"/>"
+        },
+        {
+            "Id": "rarity",
+            "Name": "Rarity",
+            "Names": [
+                "Epic",
+                "Legendary"
+            ],
+            "Property": "Rarity",
+            "View": "<img src=\"images/legend/{name}.webp\"/>"
+        },
+        {
+            "Id": "gender",
+            "Name": "Gender",
+            "Names": [
+                "Male",
+                "Female"
+            ],
+            "Property": "Gender",
+            "View": "<img src=\"images/legend/{name}.png\"/>"
+        },
+        {
+            "Id": "model",
+            "Name": "Model",
+            "Names": [
+                "Short",
+                "Medium",
+                "Tall"
+            ],
+            "Property": "Model",
+            "View": "{name}"
+        }
+    ],
+    "Characters": [
+        {
+            "Name": "Albedo",
+            "Version": "1.2",
+            "Region": "Mondstadt",
+            "Element": "Geo",
+            "Weapon": "Sword",
+            "Rarity": "Legendary",
+            "Gender": "Male",
+            "Model": "Medium"
+        },
+        {
+            "Name": "Aloy",
+            "Version": "2.1",
+            "Region": "None",
+            "Element": "Cryo",
+            "Weapon": "Bow",
+            "Rarity": "Legendary",
+            "Gender": "Female",
+            "Model": "Medium"
+        },
+        {
+            "Name": "Amber",
+            "Version": "1.0",
+            "Region": "Mondstadt",
+            "Element": "Pyro",
+            "Weapon": "Bow",
+            "Rarity": "Epic",
+            "Gender": "Female",
+            "Model": "Medium"
+        },
+        {
+            "Name": "Arataki_Itto",
+            "Version": "2.3",
+            "Region": "Inazuma",
+            "Element": "Geo",
+            "Weapon": "Claymore",
+            "Rarity": "Legendary",
+            "Gender": "Male",
+            "Model": "Tall"
+        },
+        {
+            "Name": "Barbara",
+            "Version": "1.0",
+            "Region": "Mondstadt",
+            "Element": "Hydro",
+            "Weapon": "Catalyst",
+            "Rarity": "Epic",
+            "Gender": "Female",
+            "Model": "Medium"
+        },
+        {
+            "Name": "Beidou",
+            "Version": "1.0",
+            "Region": "Liyue",
+            "Element": "Electro",
+            "Weapon": "Claymore",
+            "Rarity": "Epic",
+            "Gender": "Female",
+            "Model": "Tall"
+        },
+        {
+            "Name": "Bennett",
+            "Version": "1.0",
+            "Region": "Mondstadt",
+            "Element": "Pyro",
+            "Weapon": "Sword",
+            "Rarity": "Epic",
+            "Gender": "Male",
+            "Model": "Medium"
+        },
+        {
+            "Name": "Chongyun",
+            "Version": "1.0",
+            "Region": "Liyue",
+            "Element": "Cryo",
+            "Weapon": "Claymore",
+            "Rarity": "Epic",
+            "Gender": "Male",
+            "Model": "Medium"
+        },
+        {
+            "Name": "Collei",
+            "Version": "3.0",
+            "Region": "Sumeru",
+            "Element": "Dendro",
+            "Weapon": "Bow",
+            "Rarity": "Epic",
+            "Gender": "Female",
+            "Model": "Medium"
+        },
+        {
+            "Name": "Diluc",
+            "Version": "1.0",
+            "Region": "Mondstadt",
+            "Element": "Pyro",
+            "Weapon": "Claymore",
+            "Rarity": "Legendary",
+            "Gender": "Male",
+            "Model": "Tall"
+        },
+        {
+            "Name": "Diona",
+            "Version": "1.1",
+            "Region": "Mondstadt",
+            "Element": "Cryo",
+            "Weapon": "Bow",
+            "Rarity": "Epic",
+            "Gender": "Female",
+            "Model": "Short"
+        },
+        {
+            "Name": "Dori",
+            "Version": "3.0",
+            "Region": "Sumeru",
+            "Element": "Electro",
+            "Weapon": "Claymore",
+            "Rarity": "Epic",
+            "Gender": "Female",
+            "Model": "Short"
+        },
+        {
+            "Name": "Eula",
+            "Version": "1.5",
+            "Region": "Mondstadt",
+            "Element": "Cryo",
+            "Weapon": "Claymore",
+            "Rarity": "Legendary",
+            "Gender": "Female",
+            "Model": "Tall"
+        },
+        {
+            "Name": "Fischl",
+            "Version": "1.0",
+            "Region": "Mondstadt",
+            "Element": "Electro",
+            "Weapon": "Bow",
+            "Rarity": "Epic",
+            "Gender": "Female",
+            "Model": "Medium"
+        },
+        {
+            "Name": "Ganyu",
+            "Version": "1.2",
+            "Region": "Liyue",
+            "Element": "Cryo",
+            "Weapon": "Bow",
+            "Rarity": "Legendary",
+            "Gender": "Female",
+            "Model": "Medium"
+        },
+        {
+            "Name": "Gorou",
+            "Version": "2.3",
+            "Region": "Inazuma",
+            "Element": "Geo",
+            "Weapon": "Bow",
+            "Rarity": "Epic",
+            "Gender": "Male",
+            "Model": "Medium"
+        },
+        {
+            "Name": "Hu_Tao",
+            "Version": "1.3",
+            "Region": "Liyue",
+            "Element": "Pyro",
+            "Weapon": "Polearm",
+            "Rarity": "Legendary",
+            "Gender": "Female",
+            "Model": "Medium"
+        },
+        {
+            "Name": "Jean",
+            "Version": "1.0",
+            "Region": "Mondstadt",
+            "Element": "Anemo",
+            "Weapon": "Sword",
+            "Rarity": "Legendary",
+            "Gender": "Female",
+            "Model": "Tall"
+        },
+        {
+            "Name": "Kaedehara_Kazuha",
+            "Version": "1.6",
+            "Region": "Inazuma",
+            "Element": "Anemo",
+            "Weapon": "Sword",
+            "Rarity": "Legendary",
+            "Gender": "Male",
+            "Model": "Medium"
+        },
+        {
+            "Name": "Kaeya",
+            "Version": "1.0",
+            "Region": "Mondstadt",
+            "Element": "Cryo",
+            "Weapon": "Sword",
+            "Rarity": "Epic",
+            "Gender": "Male",
+            "Model": "Tall"
+        },
+        {
+            "Name": "Kamisato_Ayaka",
+            "Version": "2.0",
+            "Region": "Inazuma",
+            "Element": "Cryo",
+            "Weapon": "Sword",
+            "Rarity": "Legendary",
+            "Gender": "Female",
+            "Model": "Medium"
+        },
+        {
+            "Name": "Kamisato_Ayato",
+            "Version": "2.6",
+            "Region": "Inazuma",
+            "Element": "Hydro",
+            "Weapon": "Sword",
+            "Rarity": "Legendary",
+            "Gender": "Male",
+            "Model": "Tall"
+        },
+        {
+            "Name": "Keqing",
+            "Version": "1.0",
+            "Region": "Liyue",
+            "Element": "Electro",
+            "Weapon": "Sword",
+            "Rarity": "Legendary",
+            "Gender": "Female",
+            "Model": "Medium"
+        },
+        {
+            "Name": "Klee",
+            "Version": "1.0",
+            "Region": "Mondstadt",
+            "Element": "Pyro",
+            "Weapon": "Catalyst",
+            "Rarity": "Legendary",
+            "Gender": "Female",
+            "Model": "Short"
+        },
+        {
+            "Name": "Kujou_Sara",
+            "Version": "2.1",
+            "Region": "Inazuma",
+            "Element": "Electro",
+            "Weapon": "Bow",
+            "Rarity": "Epic",
+            "Gender": "Female",
+            "Model": "Tall"
+        },
+        {
+            "Name": "Kuki_Shinobu",
+            "Version": "2.7",
+            "Region": "Inazuma",
+            "Element": "Electro",
+            "Weapon": "Sword",
+            "Rarity": "Epic",
+            "Gender": "Female",
+            "Model": "Medium"
+        },
+        {
+            "Name": "Lisa",
+            "Version": "1.0",
+            "Region": "Mondstadt",
+            "Element": "Electro",
+            "Weapon": "Catalyst",
+            "Rarity": "Epic",
+            "Gender": "Female",
+            "Model": "Tall"
+        },
+        {
+            "Name": "Mona",
+            "Version": "1.0",
+            "Region": "Mondstadt",
+            "Element": "Hydro",
+            "Weapon": "Catalyst",
+            "Rarity": "Legendary",
+            "Gender": "Female",
+            "Model": "Medium"
+        },
+        {
+            "Name": "Ningguang",
+            "Version": "1.0",
+            "Region": "Liyue",
+            "Element": "Geo",
+            "Weapon": "Catalyst",
+            "Rarity": "Epic",
+            "Gender": "Female",
+            "Model": "Tall"
+        },
+        {
+            "Name": "Noelle",
+            "Version": "1.0",
+            "Region": "Mondstadt",
+            "Element": "Geo",
+            "Weapon": "Claymore",
+            "Rarity": "Epic",
+            "Gender": "Female",
+            "Model": "Medium"
+        },
+        {
+            "Name": "Qiqi",
+            "Version": "1.0",
+            "Region": "Liyue",
+            "Element": "Cryo",
+            "Weapon": "Sword",
+            "Rarity": "Legendary",
+            "Gender": "Female",
+            "Model": "Short"
+        },
+        {
+            "Name": "Raiden_Shogun",
+            "Version": "2.1",
+            "Region": "Inazuma",
+            "Element": "Electro",
+            "Weapon": "Polearm",
+            "Rarity": "Legendary",
+            "Gender": "Female",
+            "Model": "Tall"
+        },
+        {
+            "Name": "Razor",
+            "Version": "1.0",
+            "Region": "Mondstadt",
+            "Element": "Electro",
+            "Weapon": "Claymore",
+            "Rarity": "Epic",
+            "Gender": "Male",
+            "Model": "Medium"
+        },
+        {
+            "Name": "Rosaria",
+            "Version": "1.4",
+            "Region": "Mondstadt",
+            "Element": "Cryo",
+            "Weapon": "Polearm",
+            "Rarity": "Epic",
+            "Gender": "Female",
+            "Model": "Tall"
+        },
+        {
+            "Name": "Sangonomiya_Kokomi",
+            "Version": "2.1",
+            "Region": "Inazuma",
+            "Element": "Hydro",
+            "Weapon": "Catalyst",
+            "Rarity": "Legendary",
+            "Gender": "Female",
+            "Model": "Medium"
+        },
+        {
+            "Name": "Sayu",
+            "Version": "2.0",
+            "Region": "Inazuma",
+            "Element": "Anemo",
+            "Weapon": "Claymore",
+            "Rarity": "Epic",
+            "Gender": "Female",
+            "Model": "Short"
+        },
+        {
+            "Name": "Shenhe",
+            "Version": "2.4",
+            "Region": "Liyue",
+            "Element": "Cryo",
+            "Weapon": "Polearm",
+            "Rarity": "Legendary",
+            "Gender": "Female",
+            "Model": "Tall"
+        },
+        {
+            "Name": "Shikanoin_Heizou",
+            "Version": "2.8",
+            "Region": "Inazuma",
+            "Element": "Anemo",
+            "Weapon": "Catalyst",
+            "Rarity": "Epic",
+            "Gender": "Male",
+            "Model": "Medium"
+        },
+        {
+            "Name": "Sucrose",
+            "Version": "1.0",
+            "Region": "Mondstadt",
+            "Element": "Anemo",
+            "Weapon": "Catalyst",
+            "Rarity": "Epic",
+            "Gender": "Female",
+            "Model": "Medium"
+        },
+        {
+            "Name": "Tartaglia",
+            "Version": "1.1",
+            "Region": "Snezhnaya",
+            "Element": "Hydro",
+            "Weapon": "Bow",
+            "Rarity": "Legendary",
+            "Gender": "Male",
+            "Model": "Tall"
+        },
+        {
+            "Name": "Thoma",
+            "Version": "2.2",
+            "Region": "Inazuma",
+            "Element": "Pyro",
+            "Weapon": "Polearm",
+            "Rarity": "Epic",
+            "Gender": "Male",
+            "Model": "Tall"
+        },
+        {
+            "Name": "Tighnari",
+            "Version": "3.0",
+            "Region": "Sumeru",
+            "Element": "Dendro",
+            "Weapon": "Bow",
+            "Rarity": "Legendary",
+            "Gender": "Male",
+            "Model": "Medium"
+        },
+        {
+            "Name": "Venti",
+            "Version": "1.0",
+            "Region": "Mondstadt",
+            "Element": "Anemo",
+            "Weapon": "Bow",
+            "Rarity": "Legendary",
+            "Gender": "Male",
+            "Model": "Medium"
+        },
+        {
+            "Name": "Xiangling",
+            "Version": "1.0",
+            "Region": "Liyue",
+            "Element": "Pyro",
+            "Weapon": "Polearm",
+            "Rarity": "Epic",
+            "Gender": "Female",
+            "Model": "Medium"
+        },
+        {
+            "Name": "Xiao",
+            "Version": "1.3",
+            "Region": "Liyue",
+            "Element": "Anemo",
+            "Weapon": "Polearm",
+            "Rarity": "Legendary",
+            "Gender": "Male",
+            "Model": "Medium"
+        },
+        {
+            "Name": "Xingqiu",
+            "Version": "1.0",
+            "Region": "Liyue",
+            "Element": "Hydro",
+            "Weapon": "Sword",
+            "Rarity": "Epic",
+            "Gender": "Male",
+            "Model": "Medium"
+        },
+        {
+            "Name": "Xinyan",
+            "Version": "1.1",
+            "Region": "Liyue",
+            "Element": "Pyro",
+            "Weapon": "Claymore",
+            "Rarity": "Epic",
+            "Gender": "Female",
+            "Model": "Medium"
+        },
+        {
+            "Name": "Yae_Miko",
+            "Version": "2.5",
+            "Region": "Inazuma",
+            "Element": "Electro",
+            "Weapon": "Catalyst",
+            "Rarity": "Legendary",
+            "Gender": "Female",
+            "Model": "Tall"
+        },
+        {
+            "Name": "Yanfei",
+            "Version": "1.5",
+            "Region": "Liyue",
+            "Element": "Pyro",
+            "Weapon": "Catalyst",
+            "Rarity": "Epic",
+            "Gender": "Female",
+            "Model": "Medium"
+        },
+        {
+            "Name": "Yelan",
+            "Version": "2.7",
+            "Region": "Liyue",
+            "Element": "Hydro",
+            "Weapon": "Bow",
+            "Rarity": "Legendary",
+            "Gender": "Female",
+            "Model": "Tall"
+        },
+        {
+            "Name": "Yoimiya",
+            "Version": "2.0",
+            "Region": "Inazuma",
+            "Element": "Pyro",
+            "Weapon": "Bow",
+            "Rarity": "Legendary",
+            "Gender": "Female",
+            "Model": "Medium"
+        },
+        {
+            "Name": "Yun_Jin",
+            "Version": "2.4",
+            "Region": "Liyue",
+            "Element": "Geo",
+            "Weapon": "Polearm",
+            "Rarity": "Epic",
+            "Gender": "Female",
+            "Model": "Medium"
+        },
+        {
+            "Name": "Zhongli",
+            "Version": "1.1",
+            "Region": "Liyue",
+            "Element": "Geo",
+            "Weapon": "Polearm",
+            "Rarity": "Legendary",
+            "Gender": "Male",
+            "Model": "Tall"
+        },
+        {
+            "Name": "Candace",
+            "Version": "3.1",
+            "Region": "Sumeru",
+            "Element": "Hydro",
+            "Weapon": "Polearm",
+            "Rarity": "Epic",
+            "Gender": "Female",
+            "Model": "Tall"
+        },
+        {
+            "Name": "Cyno",
+            "Version": "3.1",
+            "Region": "Sumeru",
+            "Element": "Electro",
+            "Weapon": "Polearm",
+            "Rarity": "Legendary",
+            "Gender": "Male",
+            "Model": "Medium"
+        },
+        {
+            "Name": "Nilou",
+            "Version": "3.1",
+            "Region": "Sumeru",
+            "Element": "Hydro",
+            "Weapon": "Sword",
+            "Rarity": "Legendary",
+            "Gender": "Female",
+            "Model": "Medium"
+        }
+    ]
+}
