@@ -4,7 +4,9 @@
             "Id": "version",
             "Name": "Version",
             "Names": [
-                "1.0", "1.1", "1.2", "1.3", "1.4", "1.5", "1.6", "2.0", "2.1", "2.2", "2.3", "2.4", "2.5", "2.6", "2.7", "2.8", "3.0", "3.1"
+                "1.0", "1.1", "1.2", "1.3", "1.4", "1.5", "1.6",
+                "2.0", "2.1", "2.2", "2.3", "2.4", "2.5", "2.6", "2.7", "2.8",
+                "3.0", "3.1", "3.2", "3.3", "3.4", "3.5"
             ],
             "Property": "Version",
             "View": "{name}"
@@ -97,6 +99,16 @@
             "Model": "Medium"
         },
         {
+            "Name": "Alhaitham",
+            "Version": "3.4",
+            "Region": "Sumeru",
+            "Element": "Dendro",
+            "Weapon": "Sword",
+            "Rarity": "Legendary",
+            "Gender": "Male",
+            "Model": "Tall"
+        },
+        {
             "Name": "Aloy",
             "Version": "2.1",
             "Region": "None",
@@ -157,6 +169,16 @@
             "Model": "Medium"
         },
         {
+            "Name": "Candace",
+            "Version": "3.1",
+            "Region": "Sumeru",
+            "Element": "Hydro",
+            "Weapon": "Polearm",
+            "Rarity": "Epic",
+            "Gender": "Female",
+            "Model": "Tall"
+        },
+        {
             "Name": "Chongyun",
             "Version": "1.0",
             "Region": "Liyue",
@@ -174,6 +196,16 @@
             "Weapon": "Bow",
             "Rarity": "Epic",
             "Gender": "Female",
+            "Model": "Medium"
+        },
+        {
+            "Name": "Cyno",
+            "Version": "3.1",
+            "Region": "Sumeru",
+            "Element": "Electro",
+            "Weapon": "Polearm",
+            "Rarity": "Legendary",
+            "Gender": "Male",
             "Model": "Medium"
         },
         {
@@ -215,6 +247,16 @@
             "Rarity": "Legendary",
             "Gender": "Female",
             "Model": "Tall"
+        },
+        {
+            "Name": "Faruzan",
+            "Version": "3.3",
+            "Region": "Sumeru",
+            "Element": "Anemo",
+            "Weapon": "Bow",
+            "Rarity": "Epic",
+            "Gender": "Female",
+            "Model": "Medium"
         },
         {
             "Name": "Fischl",
@@ -347,6 +389,16 @@
             "Model": "Medium"
         },
         {
+            "Name": "Layla",
+            "Version": "3.2",
+            "Region": "Sumeru",
+            "Element": "Cryo",
+            "Weapon": "Sword",
+            "Rarity": "Epic",
+            "Gender": "Female",
+            "Model": "Medium"
+        },
+        {
             "Name": "Lisa",
             "Version": "1.0",
             "Region": "Mondstadt",
@@ -362,6 +414,26 @@
             "Region": "Mondstadt",
             "Element": "Hydro",
             "Weapon": "Catalyst",
+            "Rarity": "Legendary",
+            "Gender": "Female",
+            "Model": "Medium"
+        },
+        {
+            "Name": "Nahida",
+            "Version": "3.2",
+            "Region": "Sumeru",
+            "Element": "Dendro",
+            "Weapon": "Catalyst",
+            "Rarity": "Legendary",
+            "Gender": "Female",
+            "Model": "Short"
+        },
+        {
+            "Name": "Nilou",
+            "Version": "3.1",
+            "Region": "Sumeru",
+            "Element": "Hydro",
+            "Weapon": "Sword",
             "Rarity": "Legendary",
             "Gender": "Female",
             "Model": "Medium"
@@ -517,6 +589,16 @@
             "Model": "Medium"
         },
         {
+            "Name": "Wanderer",
+            "Version": "3.3",
+            "Region": "Sumeru",
+            "Element": "Anemo",
+            "Weapon": "Catalyst",
+            "Rarity": "Legendary",
+            "Gender": "Male",
+            "Model": "Medium"
+        },
+        {
             "Name": "Xiangling",
             "Version": "1.0",
             "Region": "Liyue",
@@ -577,6 +659,16 @@
             "Model": "Medium"
         },
         {
+            "Name": "Yaoyao",
+            "Version": "3.4",
+            "Region": "Liyue",
+            "Element": "Dendro",
+            "Weapon": "Polearm",
+            "Rarity": "Epic",
+            "Gender": "Female",
+            "Model": "Short"
+        },
+        {
             "Name": "Yelan",
             "Version": "2.7",
             "Region": "Liyue",
@@ -615,36 +707,6 @@
             "Rarity": "Legendary",
             "Gender": "Male",
             "Model": "Tall"
-        },
-        {
-            "Name": "Candace",
-            "Version": "3.1",
-            "Region": "Sumeru",
-            "Element": "Hydro",
-            "Weapon": "Polearm",
-            "Rarity": "Epic",
-            "Gender": "Female",
-            "Model": "Tall"
-        },
-        {
-            "Name": "Cyno",
-            "Version": "3.1",
-            "Region": "Sumeru",
-            "Element": "Electro",
-            "Weapon": "Polearm",
-            "Rarity": "Legendary",
-            "Gender": "Male",
-            "Model": "Medium"
-        },
-        {
-            "Name": "Nilou",
-            "Version": "3.1",
-            "Region": "Sumeru",
-            "Element": "Hydro",
-            "Weapon": "Sword",
-            "Rarity": "Legendary",
-            "Gender": "Female",
-            "Model": "Medium"
         }
     ]
 }
