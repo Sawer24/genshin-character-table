@@ -6,7 +6,8 @@
             "Names": [
                 "1.0", "1.1", "1.2", "1.3", "1.4", "1.5", "1.6",
                 "2.0", "2.1", "2.2", "2.3", "2.4", "2.5", "2.6", "2.7", "2.8",
-                "3.0", "3.1", "3.2", "3.3", "3.4"
+                "3.0", "3.1", "3.2", "3.3", "3.4", "3.5", "3.6", "3.7", "3.8",
+                "4.0"
             ],
             "Property": "Version",
             "View": "{name}"
@@ -139,6 +140,16 @@
             "Model": "Tall"
         },
         {
+            "Name": "Baizhu",
+            "Version": "3.6",
+            "Region": "Liyue",
+            "Element": "Dendro",
+            "Weapon": "Catalyst",
+            "Rarity": "Legendary",
+            "Gender": "Male",
+            "Model": "Tall"
+        },
+        {
             "Name": "Barbara",
             "Version": "1.0",
             "Region": "Mondstadt",
@@ -207,6 +218,16 @@
             "Rarity": "Legendary",
             "Gender": "Male",
             "Model": "Medium"
+        },
+        {
+            "Name": "Dehya",
+            "Version": "3.5",
+            "Region": "Sumeru",
+            "Element": "Pyro",
+            "Weapon": "Claymore",
+            "Rarity": "Legendary",
+            "Gender": "Female",
+            "Model": "Tall"
         },
         {
             "Name": "Diluc",
@@ -349,12 +370,32 @@
             "Model": "Tall"
         },
         {
+            "Name": "Kaveh",
+            "Version": "3.6",
+            "Region": "Sumeru",
+            "Element": "Dendro",
+            "Weapon": "Claymore",
+            "Rarity": "Epic",
+            "Gender": "Male",
+            "Model": "Tall"
+        },
+        {
             "Name": "Keqing",
             "Version": "1.0",
             "Region": "Liyue",
             "Element": "Electro",
             "Weapon": "Sword",
             "Rarity": "Legendary",
+            "Gender": "Female",
+            "Model": "Medium"
+        },
+        {
+            "Name": "Kirara",
+            "Version": "3.7",
+            "Region": "Inazuma",
+            "Element": "Dendro",
+            "Weapon": "Sword",
+            "Rarity": "Epic",
             "Gender": "Female",
             "Model": "Medium"
         },
@@ -407,6 +448,36 @@
             "Rarity": "Epic",
             "Gender": "Female",
             "Model": "Tall"
+        },
+        {
+            "Name": "Lynette",
+            "Version": "4.0",
+            "Region": "Fontaine",
+            "Element": "Anemo",
+            "Weapon": "Sword",
+            "Rarity": "Epic",
+            "Gender": "Female",
+            "Model": "Medium"
+        },
+        {
+            "Name": "Lyney",
+            "Version": "4.0",
+            "Region": "Fontaine",
+            "Element": "Pyro",
+            "Weapon": "Bow",
+            "Rarity": "Legendary",
+            "Gender": "Male",
+            "Model": "Medium"
+        },
+        {
+            "Name": "Mika",
+            "Version": "3.5",
+            "Region": "Mondstadt",
+            "Element": "Cryo",
+            "Weapon": "Polearm",
+            "Rarity": "Epic",
+            "Gender": "Male",
+            "Model": "Medium"
         },
         {
             "Name": "Mona",
